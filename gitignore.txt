@@ -1,0 +1,65 @@
+# Visual Studio temporary files
+.vscode/
+.vs/
+
+# Compiled output
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# User-specific folders
+UpgradeLog.XML
+*_ReSharper*
+
+# IDE folders
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Dependency directories
+packages/
+node_modules/
+bower_components/
+
+# Visual Studio code coverage results
+.vscode-test/
+.vs-test/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# macOS Finder files
+.DS_Store
+
+# Node.js generated files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker compose file
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.vs.debug.yml
+docker-compose.vs.release.yml
