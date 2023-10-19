@@ -46,7 +46,9 @@ namespace outletstore.Functions
                 {
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = securityKey,
-                    RequireExpirationTime = false
+                    RequireExpirationTime = false,
+                    ValidateIssuer = false,
+                    ValidateAudience = false
                 };
                 claimsPrincipal = tokenHandler.ValidateToken(token, tokenValidationParameters, out validatedToken);
             }
